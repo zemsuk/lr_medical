@@ -1,0 +1,26 @@
+{
+    "name": "zems/lr_medical",
+    "description": "lr_medical For Software maintain and managing admin model migration by zems team v1.0.2",
+    "type": "library",
+    "require": {
+        "zems/lr_admin": "v1.0.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zems\\LrMedical\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zems",
+            "email": "support@zems.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": ["Zems\\LrMedical\\LrMedicalProvider"]
+        }
+    }
+}
